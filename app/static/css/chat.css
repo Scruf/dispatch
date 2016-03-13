@@ -1,0 +1,125 @@
+#contacts{
+    background-color: #333333;
+    height: 100vh;
+}
+
+.contact{
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.contact img{
+  display: inline;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+h2{
+  color: white;
+  font-size: 16pt;
+  display: inline;
+  position: relative;
+  top: 4px;
+}
+
+.contact:hover{
+  background-color: #555555;
+  cursor: pointer;
+}
+
+#chat{
+    background-color: #eeeeee;
+    height: 100vh;
+}
+
+#title{
+  height: 60px;
+  background-color: #cccccc;
+  margin: -15px;
+  margin-bottom: 15px;
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  box-shadow: 0 4px 6px -2px gray;
+  line-height: 60px;
+}
+
+h1{
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 20pt;
+}
+
+#contact-name{
+  text-align: left;
+  margin: 0 auto;
+}
+
+i{
+  color: #888888;
+  font-size: 16pt;
+}
+
+#chat-body{
+  position: absolute;
+  top: 45px;
+  bottom: 46px;
+  overflow-y: scroll;
+}
+
+#msg{
+  bottom: 15px;
+  width: 100%;
+  position: absolute;
+  height: 46px;
+  background-color: #555555;
+  margin: -15px;
+}
+
+#text{
+  width: 89%;
+}
+
+#send{
+  width: 10%;
+}
+
+/*Chat bubble styles*/
+
+.bubble{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #888888;
+    display: inline-block;
+    padding: 8px 14px;
+    position: relative;
+    vertical-align: top;
+    clear: both;
+    font-size: 11pt;
+}
+
+.bubble::before {
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    width:  20px;
+}
+
+.you {
+    background-color: #F2F2F2;
+    float: left;
+    margin: 5px 45px 5px 20px;
+}
+
+.me {
+    background-color: #3498DB;
+    float: right;
+    margin: 5px 20px 5px 45px;
+}
