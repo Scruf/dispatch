@@ -27,8 +27,7 @@ SECRET_KEY = "8mgwr_2q06jbj=it5lfv7mre8y#a8n!%!-2w2fv3=$9f_)n*dc"
 DEBUG = True
 
 # Application definition
-SPARKPOST_API_KEY='8f955b619dfc874206b76b7900395f4c85a0aeb9'
-EMAIL_BACKEND = 'sparkpost.django.email_backend.SparkPostEmailBackend'
+
 INSTALLED_APPS = (
     'django.contrib.admin',
     'app.apps.appConfig',
@@ -130,4 +129,3 @@ STATICFILES_DIRS = [
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-
